@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
               TextField(
                 controller: descricaoController,
                 decoration: InputDecoration(
-                  label: Text("Descrição")
+                  label: Text("Modelo")
                 ),
               ),
 
@@ -249,7 +249,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
 
       appBar: AppBar(
-        title: Text("Lista de produtos"),
+        title: Text("Games do Jota"),
         backgroundColor: Colors.deepPurple,
       ),
 
